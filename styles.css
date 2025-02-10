@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Base styles */
+:root {
+    --dark: #171717;
+    --pale: #ddd;
+    --accent: #068AB6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    background: var(--pale);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 256px;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-heading {
+    max-width: 768px;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.block {
+    display: flex;
+}
+
+.block:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.block_illustration {
+    width: 40%;
+}
+
+.block_text {
+    width: 60%;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block_image {
+    border: 0.5rem solid var(--dark);
+    border-radius: 1.5rem;
+}
+
+.footer {
+    background-color: var(--dark);
+    color: var(--pale);
+    padding: 2rem 0;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section > div {
+    max-width: 60%;
+    padding: 0 2rem;
+}
+
+.mailto {
+    color: var(--accent);
+}
+
+.copyright {
+    text-align: center;
+}
+
+.mt {
+    margin-top: 4rem;
+}
+
+@media (max-width: 1280px) {
+    .block, .header {
+        padding: 0 2rem;
+    }
+    .flex-col {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section > div {
+        max-width: 100%;
+    }
+    .block, .block:nth-child(even) {
+        flex-direction: column;
+    }
+    .block_illustration, .block_text {
+        width: 100%;
+    }
+    .block_text {
+        text-align: center;
+    }
+    .footer-left {
+        margin-bottom: 2rem;
+    }
+}
