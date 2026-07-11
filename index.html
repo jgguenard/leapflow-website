@@ -3,76 +3,237 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leapflow - Business Automation Solutions</title>
+    <title>Leapflow — Business Automation for SMEs</title>
+    <meta name="description" content="We design, build, and run automated workflows that take repetitive work off your plate — so your people can focus on what actually grows the business." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/logo_icon.png">
 </head>
 <body>
-<div class="min-h-screen">
-    <header class="header-section">
-        <div class="container header">
-            <div class="logo">
-                <img src="img/logo.png" class="img" alt="Leapflow" />
-            </div>
-            <h1 class="heading">
-                Transforming Business Through Automation
-            </h1>
-            <p class="sub-heading">
-                We help businesses streamline their operations and boost productivity through intelligent automation solutions.
-            </p>
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="#top" class="brand">
+            <img src="img/logo_horizontal.png" alt="Leapflow" />
+        </a>
+        <div class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#crop">What to automate</a>
+            <a href="#approach">How we work</a>
+            <a href="#promise">Our promise</a>
         </div>
-    </header>
-    <main>
-        <section class="block-section">
-            <div class="container block">
-                <div class="block_illustration">
-                    <img src="img/flows.jpg" alt="Workflow automation" class="img block_image" />
-                </div>
-                <div class="block_text">
-                    <h2>Workflow automation</h2>
-                    <p>We build, monitor, and optimize automated workflows using a fully customizable, modern, and scalable tech stack.</p>
-                </div>
+        <div class="nav-actions">
+            <a href="https://connect.leapflow.io" class="portal-link">Client Portal</a>
+            <a href="#contact" class="btn-nav">Contact us</a>
+        </div>
+    </div>
+</nav>
+<header id="top" class="hero">
+    <div class="hero-copy">
+        <div class="eyebrow-pill">
+            <span>Business automation for SMEs</span>
+        </div>
+        <h1>Win back your team&rsquo;s time.</h1>
+        <p class="hero-lede">We design, build, and run automated workflows that take repetitive work off your plate &mdash; so your people can focus on what actually grows the business.</p>
+        <div class="hero-ctas">
+            <a href="mailto:contact@leapflow.io" class="btn-primary">Email us</a>
+            <a href="#approach" class="link-cta">See how we work &rarr;</a>
+        </div>
+        <p class="hero-note">30 years of combined experience in software development, e&#8209;commerce, and automation.</p>
+    </div>
+    <div class="hero-photo">
+        <img src="img/business.svg" alt="Business automation illustration" />
+    </div>
+</header>
+<section id="crop" class="section-band">
+    <div class="section">
+        <div class="section-intro">
+            <span class="section-eyebrow">What to automate</span>
+            <h2>Not sure where to start? Look for a CROP problem.</h2>
+            <p>The best candidates for automation are low-value, repetitive tasks. If a task checks one of these four boxes, it&rsquo;s probably costing you more than you think.</p>
+        </div>
+        <div class="crop-grid">
+            <div class="crop-card">
+                <span class="crop-letter">C</span>
+                <h3>Cost</h3>
+                <p>A task that costs too much in labour or in tooling fees.</p>
             </div>
-        </section>
-        <section class="block-section">
-            <div class="container block">
-                <div class="block_illustration">
-                    <img src="img/apis.jpg" alt="Custom APIs" class="img block_image" />
-                </div>
-                <div class="block_text">
-                    <h2>Custom APIs</h2>
-                    <p>We develop, host, and scale APIs to seamlessly bridge the gaps between your systems—unlocking new potential for your workflows and partners.</p>
-                </div>
+            <div class="crop-card">
+                <span class="crop-letter">R</span>
+                <h3>Repetition</h3>
+                <p>A manual task performed regularly, in a predictable way.</p>
             </div>
-        </section>
-        <section class="block-section">
-            <div class="container block">
-                <div class="block_illustration">
-                    <img src="img/business.jpg" alt="Productivity Audits" class="img block_image" />
-                </div>
-                <div class="block_text">
-                    <h2>Productivity Audits</h2>
-                    <p>We help boost employee productivity and engagement by automating tedious, low-value tasks. Our solutions are cost-effective and less error-prone compared to manual processes.</p>
-                </div>
+            <div class="crop-card">
+                <span class="crop-letter">O</span>
+                <h3>Opportunity</h3>
+                <p>Another task would bring in more for the same hours.</p>
             </div>
-        </section>
-    </main>
+            <div class="crop-card">
+                <span class="crop-letter">P</span>
+                <h3>Precision</h3>
+                <p>Human errors that slip through and hurt your bottom line.</p>
+            </div>
+        </div>
+        <figure class="testimonial">
+            <span class="testimonial-mark">&ldquo;</span>
+            <div class="testimonial-body">
+                <blockquote>I pay my employee $25 an hour to sort r&eacute;sum&eacute;s &mdash; at least 5 hours a week. That&rsquo;s four fewer interviews in her week. And it still ends up miscategorized in the system.</blockquote>
+                <figcaption>
+                    <span>&mdash; An HR manager, before working with us</span>
+                    <span class="testimonial-tags">
+                        <span>Cost</span>
+                        <span>Opportunity</span>
+                        <span>Precision</span>
+                    </span>
+                </figcaption>
+            </div>
+        </figure>
+    </div>
+</section>
+<section id="services" class="section">
+    <div class="section-intro">
+        <span class="section-eyebrow">Services</span>
+        <h2>Everything you need, one team.</h2>
+        <p>From spotting the opportunity to running the solution day after day.</p>
+    </div>
+    <div class="services-grid">
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="5" r="2.5"></circle><circle cx="19" cy="5" r="2.5"></circle><circle cx="12" cy="19" r="2.5"></circle><line x1="7.5" y1="5" x2="16.5" y2="5"></line><line x1="6" y1="7.2" x2="10.8" y2="16.9"></line><line x1="18" y1="7.2" x2="13.2" y2="16.9"></line></svg></span>
+            <h3>Automated workflows</h3>
+            <p>We build, monitor, and optimize automated workflows on a modern, fully customizable, scalable stack.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 7 4 12 8 17"></polyline><polyline points="16 7 20 12 16 17"></polyline><line x1="13.5" y1="5" x2="10.5" y2="19"></line></svg></span>
+            <h3>Custom APIs</h3>
+            <p>We develop, host, and scale APIs that bridge the gaps between your systems.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="20" x2="20" y2="20"></line><line x1="7" y1="16.5" x2="7" y2="11"></line><line x1="12" y1="16.5" x2="12" y2="5"></line><line x1="17" y1="16.5" x2="17" y2="8.5"></line></svg></span>
+            <h3>Productivity audits</h3>
+            <p>We identify the tedious, low-value tasks that cost you the most &mdash; and quantify what automating them saves.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><circle cx="6.2" cy="6.5" r="0.4"></circle><circle cx="9" cy="6.5" r="0.4"></circle></svg></span>
+            <h3>User interfaces</h3>
+            <p>Simple, purpose-built screens so your team can drive their automations without touching the plumbing.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 L13.8 10.2 L20 12 L13.8 13.8 L12 20 L10.2 13.8 L4 12 L10.2 10.2 Z"></path></svg></span>
+            <h3>AI-enhanced tools</h3>
+            <p>When it makes sense &mdash; and only then. Document interpretation, categorization, and triage that hold up in production.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"></circle><circle cx="12" cy="12" r="3.5"></circle><line x1="12" y1="3.5" x2="12" y2="8.5"></line><line x1="12" y1="15.5" x2="12" y2="20.5"></line><line x1="3.5" y1="12" x2="8.5" y2="12"></line><line x1="15.5" y1="12" x2="20.5" y2="12"></line></svg></span>
+            <h3>Priority support</h3>
+            <p>Real humans watching your flows, handling exceptions, and adjusting as your business changes.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 4.5 H6 L8.3 15 H18.3 L20.5 7.5 H6.7"></path><circle cx="9.3" cy="19" r="1.5"></circle><circle cx="17" cy="19" r="1.5"></circle></svg></span>
+            <h3>E-commerce consulting</h3>
+            <p>Our specialty. Orders, inventory, invoicing, ads, marketplaces &mdash; we know online retail operations inside out.</p>
+        </div>
+        <div class="service-card">
+            <span class="service-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1b7fa6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="3.5" x2="9" y2="7"></line><line x1="15" y1="3.5" x2="15" y2="7"></line><path d="M7 7 H17 V10.5 A5 5 0 0 1 12 15.5 A5 5 0 0 1 7 10.5 Z"></path><line x1="12" y1="15.5" x2="12" y2="20.5"></line></svg></span>
+            <h3>Custom connectors</h3>
+            <p>For the systems that make integrations hard. Legacy software, closed platforms, no official API &mdash; we build the bridge anyway.</p>
+        </div>
+    </div>
+</section>
+<section id="agents" class="agents-section">
+    <div class="agents-panel">
+        <div class="agents-copy">
+            <div class="new-pill">
+                <span>New</span>
+            </div>
+            <h2>Talk to your workflows.</h2>
+            <p>Ask questions, trigger runs, and get status updates in plain language &mdash; straight from your favorite AI assistant, like Claude. We connect your automations to the agent you already use, securely and with your permission.</p>
+            <ul class="agents-list">
+                <li><span class="check">&check;</span>Check status and history without opening a dashboard</li>
+                <li><span class="check">&check;</span>Trigger a workflow or handle an exception by asking</li>
+                <li><span class="check">&check;</span>Works with the AI assistants your team already uses</li>
+            </ul>
+        </div>
+        <div class="chat-demo">
+            <div class="chat-row-user">
+                <span class="chat-bubble-user">How many online orders did we process this morning?</span>
+            </div>
+            <div class="chat-row-bot">
+                <span class="chat-bubble-bot">47 orders synced to your store &mdash; all invoiced. 2 exceptions are waiting for review. Want the list?</span>
+            </div>
+            <div class="chat-row-user">
+                <span class="chat-bubble-user">Yes, and rerun the invoicing flow for those two.</span>
+            </div>
+            <div class="chat-row-bot">
+                <span class="chat-bubble-bot">Done &mdash; both went through. I&rsquo;ve flagged the order notes so your team can see what happened.</span>
+            </div>
+            <span class="chat-caption">your AI assistant &times; your Leapflow workflows</span>
+        </div>
+    </div>
+</section>
+<section id="promise" class="section-band">
+    <div class="promise-grid">
+        <div class="section-intro">
+            <span class="section-eyebrow">Our promise</span>
+            <h2>Fully managed. Never locked in.</h2>
+        </div>
+        <div class="promise-card promise-card-dark">
+            <span class="promise-stat">100% managed</span>
+            <p>Your automated workflows and APIs are developed, hosted, and monitored by experts. You get the results without adding a single system to babysit.</p>
+        </div>
+        <div class="promise-card promise-card-light">
+            <span class="promise-stat">0% locked in</span>
+            <p>Your data only passes through our cloud temporarily &mdash; we retain nothing. Prefer to keep it in-house? Self-hosting is always an option.</p>
+        </div>
+    </div>
+</section>
+<section id="approach" class="section">
+    <div class="section-intro">
+        <span class="section-eyebrow">How we work</span>
+        <h2>A four-step project approach.</h2>
+        <p>No big-bang rollouts. We start with your highest-value processes and stay with you after launch.</p>
+    </div>
+    <div class="steps-grid">
+        <div class="step-card">
+            <span class="step-num">STEP 1</span>
+            <h3>Ideation</h3>
+            <p>Working sessions with your team to identify and prioritize the processes worth automating.</p>
+        </div>
+        <div class="step-card">
+            <span class="step-num">STEP 2</span>
+            <h3>Design</h3>
+            <p>We select the tools, connect to your systems, and develop the solutions.</p>
+        </div>
+        <div class="step-card">
+            <span class="step-num">STEP 3</span>
+            <h3>Validation</h3>
+            <p>User training, testing, and feedback until it fits how your team actually works.</p>
+        </div>
+        <div class="step-card">
+            <span class="step-num">STEP 4</span>
+            <h3>Follow-up</h3>
+            <p>We monitor your automated flows and make ongoing adjustments as needs evolve.</p>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="contact-inner">
+        <h2>Ready to reclaim your hours?</h2>
+        <p>Tell us about one repetitive task that eats your week. We&rsquo;ll tell you if it&rsquo;s worth automating &mdash; no strings attached.</p>
+        <a href="mailto:contact@leapflow.io" class="btn-contact">Contact us</a>
+    </div>
     <footer class="footer">
-        <div class="footer-section container">
-            <div class="footer-left">
-                <h2>Not our first rodeo</h2>
-                <p>Our consultants have a combined 30 years of experience in software development, e-commerce and automation. We deliver results you can measure right away.</p>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span>Solutions Leapflow &middot; 16633749 Canada Inc.</span>
             </div>
-            <div class="footer-right">
-                <h2 class="footer_heading">Contact Us</h2>
-                <div>Solutions Leapflow</div>
-                <div>16633749 Canada Inc.</div>
-                <a class="mailto" href="mailto:contact@leapflow.io">contact@leapflow.io</a>
+            <div class="footer-links">
+                <a href="https://app.basecamp.com/5925981">Support Center</a>
+                <a href="https://connect.leapflow.io">Client Portal</a>
             </div>
-        </div>
-        <div class="container copyright">
-            <p>&copy; 2025 Leapflow. All rights reserved.</p>
+            <span class="footer-copyright">&copy; 2026 Leapflow. All rights reserved.</span>
         </div>
     </footer>
-</div>
+</section>
 </body>
 </html>
